@@ -1,0 +1,62 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#city {
+    background-image: url("images/edmonton.jpg");
+    background-size: cover;
+    height: 400px;
+    padding: 10px 0 40px 0;
+}
+
+#city:hover {
+    background-image: url("images/edmonton_light.jpg")
+}
+
+#activities {
+    background-image: url("images/edmonton-1-10786.gif");
+    padding: 1px;
+    background-size: cover;
+    background-color: blueviolet;
+    color: black;
+}
+
+#act_header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+}
+
+#act_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 100px;
+    border: 5px solid #A8DADC;
+}
+
+.act {
+    display: inline-block;
+    width: 33.33%;
+}
+
+#first {
+    background: turquoise;
+    background-size: cover;
+}
